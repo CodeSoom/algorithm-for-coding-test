@@ -27,24 +27,24 @@ def isValidPS(parenthesis):
 # 백준 제출용으로 변경
 # output을 따로
 # 한번에 입력인거 같으니 list로 input을 받..?
-n = int(input())
-parenthesis = []
-for _ in range(n):
-    parenthesis.append(list(map(str, input().split()))[0])
-
-for p in parenthesis:
-    result = "YES"
-    stack = []
-    for s in p:
-        if s == '(':
-            stack.append(s)
-        elif s == ')':
-            if len(stack) and stack[-1] == '(':
-                stack.pop()
-            else:
-                result = "NO"
-                break
-
-    if len(stack) > 0:
-        result = "NO"
-    print(result)
+# n = int(input())
+# parenthesis = []
+# for _ in range(n):
+#     parenthesis.append(list(map(str, input().split()))[0])
+#
+# for p in parenthesis:
+#     result = "YES"
+#     stack = []
+#     for s in p:
+#         if s == '(':
+#             stack.append(s)
+#         elif s == ')':
+#             if len(stack) and stack[-1] == '(':
+#                 stack.pop()
+#             else:
+#                 result = "NO"
+#                 break
+#
+#     if len(stack) > 0:
+#         result = "NO"
+#     print(result)

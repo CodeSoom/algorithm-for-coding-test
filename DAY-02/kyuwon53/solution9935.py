@@ -22,6 +22,7 @@ def solution(sentence, bomb):
 #     stack.append(s)
 #     if stack[-n:] == list(bomb):
 #         del stack[-n:]
+#
 # if len(stack):
 #     result = ''.join(stack)
 # print(result)

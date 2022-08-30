@@ -8,6 +8,7 @@ class Test(TestCase):
         bomb = 'C4'
         result = 'mirkovniz'
         self.assertEqual(solution(sentence, bomb), result)
+
     def test_solution_all(self):
         sentence = '12ab112ab2ab'
         bomb = '12ab'

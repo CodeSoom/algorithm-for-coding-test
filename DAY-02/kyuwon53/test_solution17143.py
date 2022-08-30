@@ -28,12 +28,12 @@ class Test(TestCase):
         result = "<int><max>7463847412<long long><max>7085774586302733229"
         self.assertEqual(reverseString(sentence), result)
 
-    def test_reverse_string_with_tag_digit_blank_2(self):
+    def test_reverse_string_with_tag_digit_blank_(self):
         sentence = "<problem>17413<is hardest>problem ever<end>"
         result = "<problem>31471<is hardest>melborp reve<end>"
         self.assertEqual(reverseString(sentence), result)
 
-    def test_reverse_string_with_tag_blank_2(self):
+    def test_reverse_string_with_tag_blank_(self):
         sentence = "<   space   >space space space<    spa   c e>"
         result = "<   space   >ecaps ecaps ecaps<    spa   c e>"
         self.assertEqual(reverseString(sentence), result)

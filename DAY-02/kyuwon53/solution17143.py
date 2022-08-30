@@ -3,7 +3,7 @@
 # 단, 태그는 단어가 아니다
 # 각 단어를 ...
 # '<'라면 문자열에 바로 붙인다. flag를 써서 '>'이 나올때까지 결과에 붙임
-# 리팩토링
+# 리팩토링 필요
 def reverseString(sentence):
     stack = []
     result = ''
