@@ -4,7 +4,6 @@ def solution(N, K):
     index = 0
     for i in range(N):
         index += K - 1
-        # if index >= len(q):
         index %= len(q)
         result.append(str(q.pop(index)))
     print('<' + ','.join(list(map(str, result))) + '>')

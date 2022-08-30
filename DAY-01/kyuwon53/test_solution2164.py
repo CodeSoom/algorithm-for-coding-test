@@ -4,17 +4,17 @@ from solution2164 import solution2
 
 
 class Test(TestCase):
-    def test_solution4(self):
-        self.assertEqual(4, solution(4))
-
-    def test_solution6(self):
-        self.assertEqual(4, solution(6))
-
     def test_solution1(self):
         self.assertEqual(1, solution(1))
 
     def test_solution2(self):
         self.assertEqual(2, solution(2))
+
+    def test_solution4(self):
+        self.assertEqual(4, solution(4))
+
+    def test_solution6(self):
+        self.assertEqual(4, solution(6))
 
     def test_solution10(self):
         self.assertEqual(4, solution(10))

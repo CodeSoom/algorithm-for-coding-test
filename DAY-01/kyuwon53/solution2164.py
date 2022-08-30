@@ -14,9 +14,11 @@ def solution2(N):
     if N == 1:
         return 1
     card = deque([n for n in range(2, N + 1, 2)])
+
     if len(card) and N % 2 != 0:
         num = card.popleft()
         card.append(num)
+
     while len(card) > 1:
         card.popleft()
         move_card = card.popleft()
