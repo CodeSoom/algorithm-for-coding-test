@@ -1,5 +1,6 @@
 N = input()
 cards = list(map(int, input().split()))
+
 M = input()
 numbers = list(map(int, input().split()))
 
