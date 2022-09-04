@@ -10,6 +10,6 @@
 
 ### 문제
 
-- 균형잡힌 세상 (https://www.acmicpc.net/problem/4949) - 실버4
-- IOIOI (https://www.acmicpc.net/problem/5525) - 실버1
-- AC (https://www.acmicpc.net/problem/5430) - 골드5
+- 균형잡힌 세상 (https://www.acmicpc.net/problem/4949)
+- IOIOI (https://www.acmicpc.net/problem/5525)
+- AC (https://www.acmicpc.net/problem/5430)
