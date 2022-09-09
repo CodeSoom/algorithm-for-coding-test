@@ -4,24 +4,26 @@ def isBalance(sentence):
     # 스택으로 모든 문자열을 보기보단, 정규식?
 
     stack = []
+
+    open_budgets = '(['
+    close_budgets = ')]'
     for s in sentence:
-        if not stack and (s == ')' or s == ']'):
+        if not stack and s in close_budgets:
             return False
-        if s == '(' or s == '[':
+        if s in open_budgets:
             stack.append(s)
-        elif stack:
-            if (stack[-1] == '(' and s == ')') or stack[-1] == '[' and s == ']':
+        elif s in close_budgets:
+            if stack and stack[-1] == open_budgets[close_budgets.index(s)]:
                 stack.pop()
-            elif (stack[-1] == '(' and s == ']') or stack[-1] == '[' and s == ')':
+            else:
                 return False
     if stack:
         return False
     return True
 
-
-while True:
-    sentence = input()
-    if sentence == '.':
-        break
-    result = "yes" if isBalance(sentence) else "no"
-    print(result)
+# while True:
+#     sentence = input()
+#     if sentence == '.':
+#         break
+#     result = "yes" if isBalance(sentence) else "no"
+#     print(result)
