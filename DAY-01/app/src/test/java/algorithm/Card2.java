@@ -50,11 +50,11 @@ public class Card2 {
         }
 
         while (queue.size() > 1) {
-            queue.poll();
-            queue.offer(queue.poll());
+            queue.poll(); // 맨 앞의 수를 반환한다.
+            queue.offer(queue.poll()); // 그 다음 수를 맨 뒤로 보낸다.
         }
 
-        return queue.poll();
+        return queue.poll();//맨 앞의 수를 반환한다.
     }
 
     public static void main(String[] args) throws IOException {
