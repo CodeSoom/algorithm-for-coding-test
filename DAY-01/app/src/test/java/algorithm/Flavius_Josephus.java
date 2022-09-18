@@ -16,13 +16,13 @@ import java.util.Scanner;
  * ## 조건
  * - 양의 정수 K(≤ N)
  * - (1 ≤ K ≤ N ≤ 5,000)
- * <p>
+ *
  * ## 계획
  * - N 만큼의 수를 입력 받는다.
  * - queue에 N만큼 수를 채운다.
  * - k 자리에 수를 반환한다.
  * - StringBuilder '<', ", ", ">" 를 채운다.
- * <p>
+ *
  * ## 반성
  * - StringBuilder를 사용해서 '<'를 하는 방법을 몰랏다.
  * - queue.offer(queue.poll()) 의미를 알아야 한다.
