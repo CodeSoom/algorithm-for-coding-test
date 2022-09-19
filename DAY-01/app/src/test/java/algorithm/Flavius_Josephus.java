@@ -1,6 +1,6 @@
 package algorithm;
 
-import java.util.LinkedList;
+import java.util.ArrayDeque;
 import java.util.Queue;
 import java.util.Scanner;
 
@@ -33,7 +33,7 @@ public class Flavius_Josephus {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        Queue<Integer> queue = new LinkedList<>();
+        Queue<Integer> queue = new ArrayDeque<>();
 
         int N = sc.nextInt();
         int K = sc.nextInt();

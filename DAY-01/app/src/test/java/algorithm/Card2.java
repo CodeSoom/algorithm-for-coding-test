@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayDeque;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -43,7 +44,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class Card2 {
 
     public static int card(int n) {
-        Queue<Integer> queue = new LinkedList<>();
+        Queue<Integer> queue = new ArrayDeque<>();
 
         for (int i = 1; i <= n; i++) {
             queue.offer(i);
