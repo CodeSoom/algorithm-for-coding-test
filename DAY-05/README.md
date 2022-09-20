@@ -12,4 +12,4 @@
 
 - 수 찾기 (https://www.acmicpc.net/problem/1920)
 - 예산 (https://www.acmicpc.net/problem/2512)
-- 랜선 자르기 (https://www.acmicpc.net/problem/16540)
+- 랜선 자르기 (https://www.acmicpc.net/problem/1654)
