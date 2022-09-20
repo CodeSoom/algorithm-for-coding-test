@@ -9,6 +9,6 @@
 
 ### 문제
 
--[x] 카드2 (https://www.acmicpc.net/problem/2164)
--[x] 요세푸스 문제 (https://www.acmicpc.net/problem/1158)
--[ ] 프린터 큐 (https://www.acmicpc.net/problem/1966)
+-[x] 카드2 (https://www.acmicpc.net/problem/2164)  
+-[x] 요세푸스 문제 (https://www.acmicpc.net/problem/1158)  
+-[ ] 프린터 큐 (https://www.acmicpc.net/problem/1966)  
